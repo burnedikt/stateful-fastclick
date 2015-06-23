@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<titleStates</title>
+<meta charset='utf-8' />
+
+<meta name="viewport" content="initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name='apple-mobile-web-app-capable' content='yes' />
+<style>
+#clickable {
+  color: black;
+  background-color: white;
+  border: 1px dotted black;
+  width: 300px;
+  height: 300px;
+}
+#text {
+  height: 50%;
+  border-bottom: 1px solid gray;
+}
+#clickable.fastclick-touched {
+  background-color: red;
+  color: green;
+}
+#clickable.fastclick-active {
+  background-color: green;
+  color: red;
+}
+#nested {
+  height: 50%;
+}
+#nested.fastclick-touched {
+  background-color: blue;
+}
+#nested.fastclick-active {
+  background-color: brown;
+  color: yellow;
+}
+</style>
+
+<script src="../bower_components/fastclick/lib/fastclick.js"></script>
+<script src="../dist/stateful-fastclick.js"></script>
+<script>
+  'use strict';
+  window.addEventListener('load', function() {
+    new window.StatefulFastclick(document.getElementById('clickable'), false);
+    new window.StatefulFastclick(document.getElementById('nested'), false);
+  });
+</script>
+</head>
+<body>
+<div id="everything">
+  <div id="content">
+    <div id="clickable">
+      <div id="text">This box's background- and text-color should change on tapping / releasing</div>
+      <div id="nested">This nested box's background- and text-color should change on tapping / releasing</div>
+    </div>
+  </div>
+</body>
+</html>
