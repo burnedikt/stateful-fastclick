@@ -1,9 +1,8 @@
 {
   "name": "stateful-fastclick",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "dependencies": {},
   "devDependencies": {
-    "chai": "*",
     "grunt": "*",
     "grunt-contrib-coffee": "*",
     "grunt-contrib-uglify": "*",
