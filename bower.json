@@ -2,7 +2,7 @@
   "name": "stateful-fastclick",
   "description": "Enhances ftlabs's excellent fastclick library with different touch states for a even snappier UI",
   "main": "dist/stateful-fastclick.js",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "dependencies": {
     "fastclick": "~1.0.6"
   }

@@ -1,6 +1,6 @@
 {
   "name": "stateful-fastclick",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "dependencies": {},
   "devDependencies": {
     "chai": "*",
@@ -8,9 +8,6 @@
     "grunt-contrib-coffee": "*",
     "grunt-contrib-uglify": "*",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-mocha-test": "*",
-    "matchdep": "*",
-    "mocha": "*",
-    "sinon": "*"
+    "matchdep": "*"
   }
 }
