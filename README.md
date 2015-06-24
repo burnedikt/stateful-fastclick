@@ -4,12 +4,7 @@ Stateful fastclick is a simple, easy-to-use wrapper around the excellent [fastcl
 
 ## Advanced ##
 
-### Ignore certain elements with `needsclick` ###
-
-Sometimes you need FastClick to ignore certain elements. You can do this easily by adding the `needsclick` class.
-```html
-<a class="needsclick">Ignored by FastClick</a>
-```
+Please refer to [fastclick](https://github.com/ftlabs/fastclick) for further information
 
 ### Active and touched states
 
