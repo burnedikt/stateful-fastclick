@@ -6,6 +6,11 @@ Stateful fastclick is a simple, easy-to-use wrapper around the excellent [fastcl
 
 Please refer to [fastclick](https://github.com/ftlabs/fastclick) for further information
 
+#- Dependencies
+
+- `fastclick`: Ftlabs' fastclick is the core of the stateful-fastclick library, so it needs to be loaded
+- `classlist`: stateful-fastclick makes use of classlist. To use staeful-fastclick on IE < 9, we need the [classlist-shim](https://github.com/components/classList.js), which is automatically installed via bower
+
 ### Active and touched states
 
 In order to provide visible feedback to any user navigating through your web application, this extended fastclick library sets two different CSS classes, depending on the current action.
