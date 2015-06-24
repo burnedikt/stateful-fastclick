@@ -16,9 +16,20 @@
     "package.json",
     "node_modules/**"
   ],
-  "keywords": ["fastclick", "innoactive", "touch", "states", "stateful", "hover", "active", "click", "delay"],
+  "keywords": [
+    "fastclick",
+    "innoactive",
+    "touch",
+    "states",
+    "stateful",
+    "hover",
+    "active",
+    "click",
+    "delay"
+  ],
   "version": "1.0.0",
   "dependencies": {
-    "fastclick": "~1.0.6"
+    "fastclick": "~1.0.6",
+    "classlist": "~2014.12.13"
   }
 }
