@@ -29,7 +29,7 @@
   ],
   "version": "1.0.0",
   "dependencies": {
-    "fastclick": "~1.0.6",
+    "fastclick": "burnedikt/fastclick#ios-scroll-fix",
     "classlist": "~2014.12.13"
   }
 }
